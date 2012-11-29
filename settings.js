@@ -4,7 +4,7 @@
 var settings = module.exports;
 
 // General settings
-settings.debug = process.env.DEBUG || true;
+settings.debug = process.env.DEBUG === 'true';
 
 // MongoDB
 settings.mongo_host = process.env.MONGO_HOST || 'localhost';
