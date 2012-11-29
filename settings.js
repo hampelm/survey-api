@@ -3,6 +3,9 @@
 
 var settings = module.exports;
 
+// General settings
+settings.debug = process.env.DEBUG || true;
+
 // MongoDB
 settings.mongo_host = process.env.MONGO_HOST || 'localhost';
 settings.mongo_port = parseInt(process.env.MONGO_PORT, 10);
