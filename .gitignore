@@ -6,3 +6,4 @@ herokuconfig*.sh
 nohup.out
 static/client
 static/mobile
+static/dashboard-build/
